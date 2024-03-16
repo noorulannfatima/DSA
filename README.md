@@ -1,1 +1,1 @@
-# DSA
+# Data structures practice code
