@@ -2,7 +2,7 @@
 #include<vector>
 #include <climits>
 using namespace std;
-
+//! having problem in solving this
 // Given a boolean 2D array, where each row is sorted. Find the row with the max number of 1s.
 /* LOGIC
 2nd row (key : array is sorted)
@@ -11,7 +11,7 @@ using namespace std;
 */
 int maximumOnesRow(vector<vector<int> >&V){
     int maxOnes= INT_MIN;
-    int maxOnesRow = -1;
+    int maxOnesRow = -1;   // in case if no 1 is present
     int column=V[0].size();
 
     for (int i=0;i<V.size();i++){
