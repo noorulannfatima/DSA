@@ -3,8 +3,8 @@
 using namespace std;
 // Given an integer n, return the first n rows of pascal triangle.
 vector <vector<int>> pascalTriangle(int n){
+    
     vector <vector<int>> pascal(n);
-
     for (int i=0; i<n; i++){
         pascal[i].resize(i+1);  
 
