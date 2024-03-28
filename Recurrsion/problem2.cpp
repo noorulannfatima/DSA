@@ -2,7 +2,7 @@
 using namespace std;
 // given two numbers p&q, find the value p^q using a recursive function.
 /*LOGIC:
-
+// time complexity ->O(q)
 */
 int f (int p, int q){
     // base case
